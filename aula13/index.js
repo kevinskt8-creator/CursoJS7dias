@@ -29,3 +29,16 @@ const final2 = num3.shift() // remove primeiro item da array
 const final3 = num3.splice(0, 1) // seleciona a posição e depois escolhe qual  item vc quer excluir
 
 console.log(num3)
+
+// Esvaziando uma array
+
+let num4 = [5, 6, 7, 8, 2 , 5]
+
+//num4 = []
+//num.length = 0
+
+num4.splice(0, num4.length)
+
+
+
+console.log(num4)
