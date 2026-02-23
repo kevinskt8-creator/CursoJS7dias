@@ -1,0 +1,12 @@
+const movies = [
+  { id: 1, movieName: "Dejavu" },
+  { id: 2, movieName: "Back to the Future" },
+  { id: 3, movieName: "The Matrix" },
+];
+
+
+///Utilizando Arrow Function =>
+
+console.log(movies.find(movie => movie.movieName == 'The Matrix'))
+
+
